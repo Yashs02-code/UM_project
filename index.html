@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#Projects">Projects</a></li>
+                <li><a href="#resume">Resume</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        
+    </header>
+
+    <!-- Home Section -->
+    <section id="home">
+        <h1>Welcome to My Portfolio</h1>
+        <p>Hi, I'm Yash Shirgaonkar. A passionate about Web Development.</p>
+    </section>
+
+    <hr>
+
+    <!-- About Section -->
+    <section id="about">
+        <h1>About Me</h1>
+        <p>I'm a engineering student specialized in Information Technology in Engineering. Along with my degree,
+         I completed html,css,javascript,SQL,Cybersecurity courses and various technologies. I learnt has helped 
+         me develop a project called "Housekeeping Services Website".
+         It was during this project that I discovered that I am a team player.
+         I am currently seeking roles where I can utilize my experience and skill.</p>
+    </section>
+
+    <hr>
+
+    <!-- Projects Section -->
+    <section id="Projects">
+        <div class="sub-title">
+          <h4>My <span>Projects</span></h4>
+        </div>
+        <div class="project-container">
+            <div class="project-card">
+              <div class="project-img">
+                <img src="/images/cleaning.jpg" alt="Project 1" />
+                <div class="project-card">
+                  </a>
+                </div>
+              </div>
+              <div class="project-info">
+                <h2>Project 1</h2>
+                <p>
+                  An advanced cleaning management system offering efficient
+                  scheduling, live tracking, and professional cleaning solutions.
+                </p>
+                <a href="https://tiwari-shield-shine.vercel.app/index.html" class="btn-project" target="_blank">View Project</a>
+              </div>
+            </div>
+            <div class="project-card">
+              <div class="project-img">
+                <img src="/images/AI_Healthcare.png" alt="Project 2" />
+              </div>
+              <div class="project-info">
+                <h2>Project 2</h2>
+                <p>
+                  An AI-powered chatbot for healthcare, designed to assist patients
+                  with scheduling, medical queries, and timely alerts.
+                </p>
+                <a href="https://github.com/Yashs02-code/Heathcare_chatbot_project-.git" class="btn-project" target="_blank">View Project </a>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <hr>
+
+    <!-- Resume Section -->
+    <section id="resume">
+        <h1>My Resume</h1>
+        <p>Click the button below to view or download my resume.</p>
+        
+        <div class="resume-container">
+            <a href="Yash_Resume.pdf" target="_blank" download class="btn">
+                Download Resume (PDF)
+            </a>
+        </div>
+    </section>
+    
+
+    <hr>
+    <section id="contact">
+        <h1>Contact Me</h1>
+        <p>Feel free to reach out to me for any queries or collaborations!</p>
+        
+        <form id="contact-form">
+            <div class="input-group">
+                <input type="text" id="name" name="name" required>
+                <label for="name">Full Name</label>
+            </div>
+    
+            <div class="input-group">
+                <input type="email" id="email" name="email" required>
+                <label for="email">Email Address</label>
+            </div>
+    
+            <div class="input-group">
+                <textarea id="message" name="message" rows="5" required></textarea>
+                <label for="message">Your Message</label>
+            </div>
+    
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+    </section>
+    
+   
